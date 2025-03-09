@@ -2,7 +2,7 @@
 import axios from "axios";
 import { supabase } from "./supabase";
 
-const API_KEY = "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";
+const API_KEY = "my secret key";
 
 export const getCrosswordClues = async (topic) => {
   const prompt = `Generate a crossword puzzle with 5 clues for the topic: ${topic}. Format: {clue: "question", answer: "answer"}`;
